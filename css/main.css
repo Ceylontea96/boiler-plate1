@@ -1,0 +1,93 @@
+/* 구글 웹 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+/* reset */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* common */
+.wrap {
+    font: 14px "Noto Sans KR", sans-serif;
+}
+
+.en {
+    font-family: "Exo 2", sans-serif;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+br.mo {
+    display: none;
+}
+
+/* header */
+header {
+    width: 100%;
+    /* background: red; */
+    background: rgba(0, 0, 0, 0.2);
+
+    height: 100px;
+}
+
+header .inner-header {
+    width: 80%;
+    /* background: orange; */
+    /* height: 100%; */
+    margin: 0 auto;
+}
+
+header .inner-header .logo {
+    float: left;
+    width: 200px;
+}
+
+header .inner-header .logo img {
+    width: 100%;
+}
+
+header .inner-header .gnb {
+    float: left;
+    margin-left: 80px;
+}
+
+header .inner-header .gnb li {
+    float: left;
+    margin-right: 80px;
+    line-height: 100px;
+}
+
+header .inner-header .tnb {
+    float: right;
+    
+}
+
+header .inner-header .tnb li {
+    float: left;
+    margin-right: 25px;
+    line-height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
