@@ -120,6 +120,7 @@ header .inner-header .tnb li:last-child a i {
     margin-left: 5px;
 }
 
+
 /* section main */
 section.main {
     /* background: orange; */
@@ -198,3 +199,96 @@ section.main .main-title .view:hover::after {
     width: 100%;
 
 }
+/* //section main */
+
+/* section about */
+
+section.about {
+    background: #fff;
+    padding: 80px 0;
+}
+section.about .title {
+    color: #000;
+    text-align: center;
+
+}
+
+section.about .title h2 {
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+section.about .title h2 span {
+    color: #ff8342;
+}
+
+section.about .title p {
+    font-size: 18px;
+    color: #555;
+}
+
+section.about ul {
+    /* background: tomato; */
+    width: 74%;
+    margin: 30px auto;
+    border-bottom: 1px solid #ddd;
+}
+
+section.about ul li {
+    float: left;
+    width: 33.3333%;
+}
+
+section.about ul li a .img-box {
+    overflow: hidden;
+}
+
+section.about ul li a .img-box img {
+    width: 100%;
+    transition: 0.7s;
+}
+
+section.about ul li a:hover .img-box img {
+    transform: scale(1.2);
+}
+
+section.about ul li a .text {
+    padding: 25px;
+}
+
+section.about ul li a .text h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+section.about ul li a .text p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+section.about ul li a .text p.more {
+    text-transform: uppercase;
+    font-weight: 700;
+
+    padding-left: 40px;
+
+    position: relative;
+}
+
+section.about ul li a .text p.more::before {
+    content: '\f30b';
+    font-family: "Font awesome 5 Free";
+    font-size: 15px;
+    line-height: 2;
+
+    width: 30px;
+    height: 30px;
+    background: #ff8342;
+    border-radius: 50%;
+
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+/* //section about */
