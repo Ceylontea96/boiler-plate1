@@ -127,3 +127,70 @@ section.visual .slide li .scroll {
 
     transform: rotate(-90deg);
 }
+
+ /* section contents */
+
+ section.contents {
+     background: #1b1b1b;
+     padding: 120px 0;
+ }
+
+ /* section.contents > .main.-text */
+
+ section.contents .main-text {
+     /* background: tomato; */
+     width: 1170px;
+     margin: 0 auto;
+     color: #fff;
+     font-size: 25px;
+
+     display: flex;
+     position: relative;
+ }
+
+ section.contents .main-text::before {
+     content: '';
+     background: #ffec03;
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     left: 70px;
+     top: 130px;
+
+     position: absolute;
+ }
+
+ section.contents .main-text::after {
+     content: '”';
+     font-size: 300px;
+     position: absolute;
+     left: 0;
+     top: 50px;
+ }
+
+ section.contents .main-text h3 {
+    /* background: red; */
+    flex: 1;
+    font-weight: 700;
+    line-height: 1.2;
+ }
+
+ section.contents .main-text p {
+    /* background: blue; */
+    flex: 1.5;
+    line-height: 1.4;
+ }
+
+ section.contents .main-text p span {
+     display: block;
+     margin-top: 30px;
+     font-size: 20px;
+     font-weight: 400;
+     color: #999;
+ }
+
+ /* //section.contents > .main.-text */
+
+  /* section.contents > .project */
+
+  
