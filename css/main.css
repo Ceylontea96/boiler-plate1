@@ -30,7 +30,7 @@ header {
 }
 
 header.on {
-    background: #222;
+    background: rgba(34, 34, 34, 0.9);
     border-bottom: 1px solid #2c2c2c;
 }
 
